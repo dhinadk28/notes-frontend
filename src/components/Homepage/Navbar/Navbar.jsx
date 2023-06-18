@@ -76,7 +76,6 @@ export default function Navbar() {
                   </Center>
                   <br />
                   <Center>
-                    <p>Username</p>
                   </Center>
                   <br />
                   <MenuDivider />
