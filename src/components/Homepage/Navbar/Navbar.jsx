@@ -44,10 +44,10 @@ export default function Navbar() {
                 }}>All Notes</Button>
                 <Button display={auth==true?"none":"block"}  bg={"blue"}m color={"#90CAF9"} onClick={()=>{
                     nav("/register")
-                }}>Sign up</Button>
+                }}>Signup</Button>
                 <Button display={auth==true?"none":"block"} bg={"blue"}m color={"#90CAF9"} onClick={()=>{
                     nav("/login")
-                }}>Login</Button>
+                }}>Signin</Button>
               <Button bg={"white"} onClick={toggleColorMode}>
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
               </Button>
